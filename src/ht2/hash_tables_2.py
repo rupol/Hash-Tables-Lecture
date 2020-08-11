@@ -31,34 +31,37 @@ def hash_index(key):
 
 def put(key, value):
     # hash the key and get an index
-    i = hash_index(key)
+    # i = hash_index(key)
     # find the start of the linked list using the index
     # search through the linked list
     # if the key already exists
     # overwrite the value
     # else
     # add new HashTableEntry into the head (or tail) of linked list
+    pass
 
 
 def get(key):
     # hash the key and get an index
-    i = hash_index(key)
+    # i = hash_index(key)
     # get the linked list at the computed index
     # search through the linked list for the key
     # if key exists
     # return the value
     # else
     # return None
+    pass
 
 
 def delete(key):
     # hash the key and get an index
-    i = hash_index(key)
+    # i = hash_index(key)
     # search through the linked list for the matching key
     # if key exists
     # save value
     # delete
     # return value
+    pass
 
 
 def resize():

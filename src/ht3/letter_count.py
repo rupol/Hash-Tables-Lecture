@@ -31,3 +31,4 @@ def double_letter(string):
 
 
 print(double_letter("abcdeef"))
+print(double_letter("hello"))
